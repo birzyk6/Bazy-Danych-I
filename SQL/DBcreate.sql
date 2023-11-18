@@ -1,4 +1,5 @@
- 
+-- CREATING DATABASE AND INSERTING DATA 
+
 --Creating databases 
 
 	/* CREATE DATABASE firma_2; */
