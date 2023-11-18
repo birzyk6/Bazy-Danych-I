@@ -3,12 +3,9 @@
 
 	/* CREATE DATABASE firma_2; */
 
-
-
 -- Creating schema 
 
 	/* CREATE SCHEMA ksiegowosc; */
-
 
 -- Creating tables 
 
