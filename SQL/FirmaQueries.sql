@@ -1,3 +1,5 @@
+-- ZAPYTANIA FIRMA_2
+
 -- a) Wyświetl tylko id pracownika oraz jego nazwisko */
 SELECT id_pracownika, nazwisko FROM ksiegowosc.pracownicy;
 
@@ -10,7 +12,7 @@ WHERE premie.kwota + pensje.kwota > 1000;
  
 
 -- c) Wyświetl id pracowników nieposiadających premii, 
--- 	  których płaca jest większa niż 2000. 
+--    których płaca jest większa niż 2000. 
 
 SELECT id_pracownika FROM ksiegowosc.wynagrodzenie
 INNER JOIN ksiegowosc.pensje USING (id_pensji)
